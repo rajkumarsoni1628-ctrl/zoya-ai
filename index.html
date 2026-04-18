@@ -178,7 +178,7 @@ chat.appendChild(typing);
 
 try{
 
-const res=await fetch("https://silent-waterfall-00aa.rajkumarsoni1628.workers.dev/",{
+const res=await fetch("/api/chat",{
 method:"POST",
 headers:{ "Content-Type":"application/json" },
 body:JSON.stringify({
